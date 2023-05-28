@@ -16,7 +16,7 @@ namespace MKR.Controllers
             _logger = logger;
         }        
 
-        [HttpPost]
+        [HttpGet]
         public async Task<DadataResult> ClearAddress(string adress)
         {
             var token = "03fab14d0555d6f7a9ea39754dbdc4771b4c3a8a";
